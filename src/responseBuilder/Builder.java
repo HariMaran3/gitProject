@@ -4,18 +4,12 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
-
 import static io.restassured.RestAssured.*;
-
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
-
-import com.fasterxml.jackson.databind.exc.MismatchedInputException;
-
+import org.testng.annotations.Test;import com.fasterxml.jackson.databind.exc.MismatchedInputException;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
